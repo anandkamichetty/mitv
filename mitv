@@ -146,7 +146,7 @@ public void AddChannels() throws InterruptedException
 	}
 	
 	driver.findElement(By.xpath("//input[@id='email']")).sendKeys("anand.leo@gmail.com");
-	driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("Dhookudu@1234");
+	driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("paas");
 	driver.findElement(By.xpath("//input[@id='u_0_2']")).click();
      driver.switchTo().window(parenthandle);
      
@@ -188,7 +188,7 @@ public void AddChannels() throws InterruptedException
     		}
     		
     		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("anand.leo@gmail.com");
-    		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("Dhookudu@1234");
+    		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("pass");
     		driver.findElement(By.xpath("//input[@id='u_0_2']")).click();
     	     driver.switchTo().window(parenthandle);
     	     
